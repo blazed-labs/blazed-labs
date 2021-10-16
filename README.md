@@ -4,7 +4,7 @@
 
 Welcome, we are a product development and creative productions company based in Ocean City, NJ.
 
-[1(855)788-2348](tel:+18557882348)
+[1 855-788-2348](tel:18557882348)
 
 [hello@blazed.space](mailto:hello@blazed.space)
 
