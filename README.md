@@ -1,16 +1,35 @@
-### Hi there 👋
+# Blazed Labs LLC
 
-<!--
-**blazed-labs/blazed-labs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<a href="https://blazedlabs.com/"><img align="right" src="https://blazed.sirv.com/logo/BLZ-blue.png?w=120&h=120"></a>
 
-Here are some ideas to get you started:
+Welcome, we are a product development and creative productions company based in Ocean City, NJ.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[1(855)788-2348](tel:+18557882348)
+
+[hello@blazed.space](mailto:hello@blazed.space)
+
+## Our Specialties
+
+ - Google Cloud
+ - Netlify, Render
+ - Cloudflare
+ - Namecheap, Godaddy
+
+## Social
+  - [Facebook](https://www.facebook.com/blazedlabs)
+  - [Linkedin](https://www.linkedin.com/company/blazed-labs/)
+  - [Twitter](https://twitter.com/BlazedLabs)
+
+## Stores
+  - [Ebay](https://www.ebay.com/usr/blazed.labs)
+  - [Etsy](https://www.etsy.com/shop/blazedlabs)
+
+## Websites
+ - [blazedlabs.com](https://blazedlabs.com)
+ - [blazed.space](https://blazed.space)
+ - [blazed.city](https://blazed.city/)
+ - [blazed.xyz](https://blazed.xyz)
+ - [blazed.watch](https://blazed.watch/)
+ - [blz.one](https://blz.one/)
+ - [blazed.cc](https://blazed.cc/)
+ - [blazedcorn.com](https://blazedcorn.com/)
