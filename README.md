@@ -27,9 +27,4 @@ Welcome, we are a product development and creative productions company based in 
 ## Websites
  - [blazedlabs.com](https://blazedlabs.com)
  - [blazed.space](https://blazed.space)
- - [blazed.city](https://blazed.city/)
- - [blazed.xyz](https://blazed.xyz)
- - [blazed.watch](https://blazed.watch/)
- - [blz.one](https://blz.one/)
- - [blazed.cc](https://blazed.cc/)
- - [blazedcorn.com](https://blazedcorn.com/)
+ - And more...
