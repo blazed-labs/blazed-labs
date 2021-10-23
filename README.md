@@ -2,7 +2,9 @@
 
 <a href="https://blazedlabs.com/"><img align="right" src="https://blazed.sirv.com/logo/BLZ-blue.png?w=120&h=120"></a>
 
-1-855-788-2348  [![Keybase PGP](https://img.shields.io/keybase/pgp/blazed_labs)](https://keybase.io/blazed_labs)  [hello@blazed.space](mailto:hello@blazed.space)
+[![Keybase PGP](https://img.shields.io/keybase/pgp/blazed_labs)](https://keybase.io/blazed_labs)
+Phone: 1-855-788-2348
+Email: [hello@blazed.space](mailto:hello@blazed.space)
 
 Welcome, we are a product development and creative productions company based in Ocean City, NJ.
 
@@ -37,6 +39,7 @@ Marketing
   - [Facebook](https://www.facebook.com/blazedlabs)
   - [Linkedin](https://www.linkedin.com/company/blazed-labs/)
   - [Twitter](https://twitter.com/BlazedLabs)
+  - [Google](https://g.page/blazed-labs?share)
 
 # Stores
 ## What do we sell?
