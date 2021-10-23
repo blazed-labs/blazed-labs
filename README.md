@@ -2,18 +2,38 @@
 
 <a href="https://blazedlabs.com/"><img align="right" src="https://blazed.sirv.com/logo/BLZ-blue.png?w=120&h=120"></a>
 
+[https://img.shields.io/keybase/pgp/blazed_labs]
+
 Welcome, we are a product development and creative productions company based in Ocean City, NJ.
 
-1-855-788-2348
+1-855-788-2348 | [hello@blazed.space](mailto:hello@blazed.space)
 
-[hello@blazed.space](mailto:hello@blazed.space)
+## Our Services
 
-## Our Specialties
+Product Development 
+- Google Cloud, Netlify, Render, Cloudflare, Namecheap
+- PHP, Javascript, Node.js, Python, Java, C#, C
+- Project planning, decentralized workflows, the gig economy, open source licensing
 
- - Google Cloud
- - Netlify, Render
- - Cloudflare
- - Namecheap, Godaddy
+UI/UX Design
+- HTML5/CSS, Graphic Design, Color Theory, Consumer interest modeling
+- Design Systems, style culture, User Feedback
+- Minimalism with boundaries, Storyboarding, User experience stories
+
+Testing/Complience
+- Focused & Generalized (blind) Unit Testing
+- Pentesting & Risk Assessment/Analysis
+- UI/UX Testing, User Feedback polling & analysis
+
+Logistics
+- Product design specification & documentation
+- Production, Warehousing, Distribution, Sales, Support
+- Financial modeling, forcasting, planning
+
+Marketing
+- Brand awareness, campaign management, customer relations outsourcing
+- Mass motivation strategy, social media marketing, brand identity
+- search engine optimization, enterprise white-labeling
 
 ## Social
   - [Facebook](https://www.facebook.com/blazedlabs)
@@ -30,6 +50,15 @@ On Ebay, we sell mostly used electronics and collectables.
 ### On Etsy
 On Etsy, we sell a lot of our creative work and merchandise
   - [Etsy](https://www.etsy.com/shop/blazedlabs)
+
+### Food Sales
+We are currently starting up Blazed Foods, but coming soon we will be serving BlazedCorn, BlazedSticks, and BlazedBread from our local restaurant on DoorDash and GrubHub.
+We will also accept phone-orders as well.
+
+### The Blazed Store
+The Blazed Store has all types of products, but mostly products made by us.
+
+[Visit the Store](https://blazed.space/store/)
 
 # Websites
  - [blazedlabs.com](https://blazedlabs.com)
