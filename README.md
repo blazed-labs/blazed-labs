@@ -3,43 +3,37 @@
 <a href="https://blazedlabs.com/"><img align="right" src="https://blazed.sirv.com/logo/BLZ-blue.png?w=120&h=120"></a>
 
 [![Keybase PGP](https://img.shields.io/keybase/pgp/blazed_labs)](https://keybase.io/blazed_labs)
-Phone: 1-855-788-2348
-Email: [hello@blazed.space](mailto:hello@blazed.space)
+- Phone: 1-855-788-2348
+- Email: [hello@blazed.space](mailto:hello@blazed.space)
 
 Welcome, we are a product development and creative productions company based in Ocean City, NJ.
 
-## Our Services
+# Our Services
 
-Product Development 
+## Product Development 
 - Google Cloud, Netlify, Render, Cloudflare, Namecheap
 - PHP, Javascript, Node.js, Python, Java, C#, C
 - Project planning, decentralized workflows, the gig economy, open source licensing
 
-UI/UX Design
+## UI/UX Design
 - HTML5/CSS, Graphic Design, Color Theory, Consumer interest modeling
 - Design Systems, style culture, User Feedback
 - Minimalism with boundaries, Storyboarding, User experience stories
 
-Testing/Complience
+## Testing/Complience
 - Focused & Generalized (blind) Unit Testing
 - Pentesting & Risk Assessment/Analysis
 - UI/UX Testing, User Feedback polling & analysis
 
-Logistics
+## Logistics
 - Product design specification & documentation
 - Production, Warehousing, Distribution, Sales, Support
 - Financial modeling, forcasting, planning
 
-Marketing
+## Marketing
 - Brand awareness, campaign management, customer relations outsourcing
 - Mass motivation strategy, social media marketing, brand identity
 - search engine optimization, enterprise white-labeling
-
-## Social
-  - [Facebook](https://www.facebook.com/blazedlabs)
-  - [Linkedin](https://www.linkedin.com/company/blazed-labs/)
-  - [Twitter](https://twitter.com/BlazedLabs)
-  - [Google](https://g.page/blazed-labs?share)
 
 # Stores
 ## What do we sell?
@@ -61,7 +55,15 @@ The Blazed Store has all types of products, but mostly products made by us.
 
 [Visit the Store](https://blazed.space/store/)
 
-# Websites
- - [blazedlabs.com](https://blazedlabs.com)
- - [blazed.space](https://blazed.space)
- - And more...
+# Find us...
+
+## Social
+  - [Facebook](https://www.facebook.com/blazedlabs)
+  - [Linkedin](https://www.linkedin.com/company/blazed-labs/)
+  - [Twitter](https://twitter.com/BlazedLabs)
+  - [Google](https://g.page/blazed-labs?share)
+
+## Websites
+ - [blazedlabs.com](https://blazedlabs.com) - Main company site
+ - [blazed.space](https://blazed.space) - Blazed Research & Product Development
+ - [blazed.city](https://blazed.city) - Blazed City
