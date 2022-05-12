@@ -1,69 +1,51 @@
 # Blazed Labs LLC
 
-<a href="https://blazedlabs.com/"><img align="right" src="https://blazed.sirv.com/logo/BLZ-blue.png?w=120&h=120"></a>
+<a href="https://blazedlabs.com/"><img align="right" src="https://blazed.sirv.com/logo/Beaker-Cobalt.png?w=120&h=120"></a>
 
-[![Keybase PGP](https://img.shields.io/keybase/pgp/blazed_labs)](https://keybase.io/blazed_labs)
-- Phone: 1-855-788-2348
-- Email: [hello@blazed.space](mailto:hello@blazed.space)
+> "We turn Dreams into Reality."
 
-Welcome, we are a product development and creative productions company based in Ocean City, NJ.
-
-# Our Services
-
-## Product Development 
-- Google Cloud, Netlify, Render, Cloudflare, Namecheap
-- PHP, Javascript, Node.js, Python, Java, C#, C
-- Project planning, decentralized workflows, the gig economy, open source licensing
-
-## UI/UX Design
-- HTML5/CSS, Graphic Design, Color Theory, Consumer interest modeling
-- Design Systems, style culture, User Feedback
-- Minimalism with boundaries, Storyboarding, User experience stories
-
-## Testing/Complience
-- Focused & Generalized (blind) Unit Testing
-- Pentesting & Risk Assessment/Analysis
-- UI/UX Testing, User Feedback polling & analysis
-
-## Logistics
-- Product design specification & documentation
-- Production, Warehousing, Distribution, Sales, Support
-- Financial modeling, forcasting, planning
-
-## Marketing
-- Brand awareness, campaign management, customer relations outsourcing
-- Mass motivation strategy, social media marketing, brand identity
-- search engine optimization, enterprise white-labeling
-
-# Stores
-## What do we sell?
-Our current inventory consists mostly of collectables and vintage games, but we are diversifying and slowly moving into food, software, and creative works.
-### On Ebay
-On Ebay, we sell mostly used electronics and collectables.
-  - [Ebay](https://www.ebay.com/usr/blazed.labs)
-
-### On Etsy
-On Etsy, we sell a lot of our creative work and merchandise
-  - [Etsy](https://www.etsy.com/shop/blazedlabs)
-
-### Food Sales
-We are currently starting up Blazed Foods, but coming soon we will be serving BlazedCorn, BlazedSticks, and BlazedBread from our local restaurant on DoorDash and GrubHub.
-We will also accept phone-orders as well.
-
-### The Blazed Store
-The Blazed Store has all types of products, but mostly products made by us.
-
-[Visit the Store](https://blazed.space/store/)
-
-# Find us...
+## What do you do?
+Blazed Labs is a product development company we founded in January, 2020.
+We make software, experiences, and media. This also includes games. The RUFF Foundation is our open source development group, whom acts as the orchestrator for various collaborative project development ventures. [Contact Us](https://blazed.contact/) for development inquiries.
 
 ## Social
-  - [Facebook](https://www.facebook.com/blazedlabs)
-  - [Linkedin](https://www.linkedin.com/company/blazed-labs/)
-  - [Twitter](https://twitter.com/BlazedLabs)
-  - [Google](https://g.page/blazed-labs?share)
+- [Facebook](https://facebook.com/blazedlabs)
+- [Linkedin](https://www.linkedin.com/in/blz-one/)
+- [Instagram](https://instagram.com/blazed_labs)
+- [Twitter](https://twitter.com/BlazedLabs)
 
+## Github
+- [Main - @blazed-labs](https://github.com/blazed-labs)
+- [Developers - @blazed-space](https://github.com/blazed-space)
+- [Publishing - @blazed-xyz](https://github.com/blazed-xyz)
+- [Community - @ruff-org](https://github.com/ruff-org)
+  
 ## Websites
- - [blazedlabs.com](https://blazedlabs.com) - Main company site
- - [blazed.space](https://blazed.space) - Blazed Research & Product Development
- - [blazed.city](https://blazed.city) - Blazed City
+- [Blazed Labs LLC](https://blazedlabs.com/)
+- [Blazed Space](https://www.blazed.space/)
+- [Blazed Quest](https://blazed.quest/)
+
+### Blazed One
+- [Blazed One Home](https://blz.one/)
+- [Blazed Systems](https://blazed.systems/)
+- [Blazed Telecom](https://blazed.tel/)
+
+### Blazed University
+- [Blazed City](https://blazed.city/)
+- [Blazed University Facebook](https://www.facebook.com/groups/blazed.edu)
+- [Mystery School](https://www.facebook.com/groups/atlantismysteryschool)
+
+### Blazed Foods
+- [Blazed Foods](https://blazedfoods.com)
+
+### Media
+- [Blazed Publishing](https://blazed.xyz/)
+- [Blazed Watch](https://blazed.watch/)
+- [Blazed World](https://blazed.world/)
+- [Concrete Games](https://blazed.games/)
+
+## Partners
+- [RTM Transit](https://rtmtransit.com/)
+- [Ocean Car Service](https://oceancarservice.com/)
+
+
