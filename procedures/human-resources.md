@@ -18,3 +18,6 @@ These policies are to be used by authorized members of the Blazed Labs LLC compa
 2. Employee Data Retention, a.k.a. the "file"
 3. Project Initiation Procedure
 
+## Questions? Comments? Concerns?
+* Email: [hr@blazed.company](mailto:hr@blazed.company)
+* Telephone: [+1 (855) 788-2348](tel:+18557882348)

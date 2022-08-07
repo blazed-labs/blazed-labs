@@ -22,6 +22,10 @@ and software development. The Blazed Labs LLC company is managed by [Ruff Manage
 
 We are an [Equal Opportunity](https://www.blazedlabs.com/eeo/) employer.
 
+* Check out our company site: [Website](https://blazed.company/)
+
+---
+
 ## Divisions
 - **Blazed Systems BD.**
   - [Website](https://blazed.systems/)
@@ -29,6 +33,8 @@ We are an [Equal Opportunity](https://www.blazedlabs.com/eeo/) employer.
   - [Website](https://blazed.xyz/)
 - **Blazed Telecom BD**
   - [Website](https://blazed.tel/)
+
+---
 
 ## Departments
 - **HR Department**

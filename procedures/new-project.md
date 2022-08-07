@@ -5,7 +5,7 @@
 ## Introduction
 This is business process documentation, detailing the main procedures involved in proposing a new project.
 
-1. The [Project Proposal template](https://github.com/blazed-labs/blazed-labs/blob/main/templates/new-project.md) is used to create a proposal for the Project.
+1. The [Project Proposal template](https://github.com/blazed-labs/blazed-labs/blob/main/templates/project-proposal.md) is used to create a proposal for the Project.
 2. The proposer must now show their Project Proposal to investors. The goal is to get investors to sponsor the project.
 3. If accepted, proposer will sign service ageement.
    * A formal Project Manifest must be drafted.

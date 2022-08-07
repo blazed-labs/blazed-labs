@@ -6,7 +6,7 @@
 This is business process documentation, which details the process by which new employees shall be onboarded.
 
 ## Scope
-These policies are to be used by authorized members of the Blazed Labs LLC company.
+These procedures are to be used by authorized members of the Blazed Labs LLC company.
 This procedure is expected to be invoked whenever a hiring manager at Blazed Labs LLC has 
 selected a candidate, conducted all interviews needed, and has chosen one or more applicants to
 fill their job openings.  
