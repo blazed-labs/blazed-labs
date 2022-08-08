@@ -7,7 +7,6 @@ We the people of the great micronation of Blazed, location within the Virtual wo
 The lands owned and controlled by the Nation of Blazed are to be all logical endpoints located on the following domains:
 * [blazed.world](https://blazed.world/)
 * [blazed.city](https://blazed.city/)
-* [blazed.bond](https://blazed.bond/)
 
 All territory located within the Blazed Nation is subject to this constitution, as well as all ordinances published by the Blazed National Government.
 
