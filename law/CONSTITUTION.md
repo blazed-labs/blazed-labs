@@ -7,6 +7,8 @@ We the people of the great micronation of Blazed, location within the Virtual wo
 The lands owned and controlled by the Nation of Blazed are to be all logical endpoints located on the following domains:
 * [blazed.world](https://blazed.world/)
 * [blazed.city](https://blazed.city/)
+* [blazed.monster](https://blazed.monster/)
+* [blazed.bond](https://blazed.bond/)
 
 All territory located within the Blazed Nation is subject to this constitution, as well as all ordinances published by the Blazed National Government.
 
@@ -36,21 +38,36 @@ The judicial Power of the Blazed Nation, shall be vested in one Central Court, a
 ## 0.F Companies
 A company may be founded by one or more citizen(s), and may also have one or more citizen(s) represented as members of the organization. A company shall be founded with a unique name, an organizational structure (LLC, S-CORP, C-CORP), an industry of focus, and a headquarters (HQ) address. Upon formation, a company will be issued a Private (BLZ-PRIV) and Public (BLZ-PUB) ID. Only government agencies will ask for your private key. You can share your public key wherever you wish.
 
+## 0.G Cities
+The cities of the Blazed Nation are as follows:
+1. The Greater City of Blazed (GCOB)
+2. Swell City
+3. Mosno City
+4. Magnolia City
+5. Ferringwood Village
+6. Hermopolis Town
+7. Memphis City
+8. Chelsea Seaport
+
+Each city shall be administered by an entity of the type zero (0), which is government.
+
 # 1. Law
 ## 1.A The Council
 Within the Blazed Nation, shall exist a council which consists of majority shareholders of the Ruff Management Inc. company. Wherein the shares held are represented by legally binding contracts signed by each shareholder (shareholder agreement). The value of these shares will be determined by the gross domestic product (GDP) of the virtual Blazed Nation. The council shall oversee the two offices, the department and admin offices of the government which are:
 
 ### Admin Offices
-* Blazed National Forum
-* Blazed Central Court
+* Blazed National Forum (0-1)
+* Blazed Central Court (0-2)
   
 ### Department Offices
-* Office of Finance
-* Office of Transport (Distribution)
-* Office of Reality
-* Office of Commerce
-* Office of Diplomacy
-* Office of Technology
+* Office of Finance (0-3)
+* Office of Transport (0-4)
+* Office of Reality (0-5)
+* Office of Commerce (0-6)
+* Office of Diplomacy (0-7)
+* Office of Technology (0-8)
+
+Each office shall be organized as an entity of type zero (0), which is government.
 
 The council shall consist of one (1) elected "President", who shall also serve as acting CEO of the Ruff Management Inc. and Blazed Labs LLC companies. The term of the presidency is life unless retired, resigned, or fired. The council shall also consist of one (1) elected "Vice President". The term of the vice-presidency is life unless retired, resigned, or fired. The council shall also consist of an unlimited number of "Members", whom are all extended one (1) vote in elections and ordinances, as well as one secretary for every ten (10) members. The board shall meet monthly to discuss the current state of the Blazed Nation, to hold elections, and to vote on ordinances.
 The council shall have Power To lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the Blazed Nation; but all Duties, Imposts and Excises shall be uniform throughout the Blazed Nation:
@@ -167,6 +184,7 @@ The building may have an amount of rooms, the possible rooms include:
 - Bedroom (Residential)
 - Workstation (Commercial/Industrial/Office)
 - Shipping/Receiving (Commercial/Industrial/Office)
+- Meeting Room (All)
 - Kitchen (All)
 - Storage Closet (All)
 - Vault (Bank)
