@@ -6,15 +6,26 @@
 The following standard allows for the implementation of a standard API for NFTs within smart contracts. This standard provides basic functionality to track and transfer NFTs.
 
 We considered use cases of NFTs being owned and transacted by individuals as well as consignment to third party brokers/wallets/auctioneers ("operators"). NFTs can represent ownership over digital or physical assets. We considered the following assets to be represented on the Blazed Blockchains, they are:
-* L1: Blazed Cash (B$)
-* L2: Blazed Land Token (BLT)
-* L3: Blazed Bond Token (BBT)
+* Blazed Cash (B$)
+* Blazed Land Token (BLT)
+* Blazed Bond Token (BBT)
   
 ## Motivation
 The purpose for the Blazed Blockchains are to represent current assets/liabilities in the Expanded Blazed Universe (which includes all three blockchain layers). Furthermore, the digital currency will aid in the raising of capital and sale of private (and -- eventually -- public) equity in the Blazed Labs LLC, Concrete Games LLC, and Ruff Management Inc. companies.
 
 ## Specification
 The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119.
+
+**How do gas fees work on the Blazed Blockchain?**
+
+Contracts only impose "gas" fees (or just called "fees" by the Blazed National Government) if they issue a new NFT into circulation (production).
+Certain banks in the Blazed Nation may choose to impose fees for wire transfers. These tranfers are not taxed by the government. Sales of goods, services, and/or securities, however,  impose taxation.
+
+Every BBS-1 complient Blockchain MUST:
+* deploy a contract to govern their NFT
+* pay fees to their resident city
+  * Yearly Fee (for operating an NFT on the blockchain): B$500,000
+* be managed by a company with AT LEAST 10 employees (including bots)
 
 Every BBS-1 complient contract must implement the following interface:
 
