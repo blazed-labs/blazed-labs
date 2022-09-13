@@ -8,6 +8,13 @@ While the Blazed Nation is based on a blockchain and de-fi fin-tech, the very sa
 ## Specification
 The world should be initialized/configured using Ground. Ground is a lot like Sky, a CLI/Library that provides services to the blockchain when installed on Oracles or Nodes, developers should use the following schema:
 
+```js
+class WORLD{
+    City[] _cities;
+    function _constructor(config) returns [String];
+}
+```
+
 *world
 *places
 *rooms

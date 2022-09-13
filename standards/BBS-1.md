@@ -31,32 +31,29 @@ Every BBS-1 complient contract must implement the following interface:
 
 ```js
     interface CONTRACT {
-        /* unique hash created by MD5([_symbol])  */
-        String _hash;
+        /* UUID (v4) / also known as the "chain address" ex: f50ec0b7-f960-400d-91f0-c42a6d44e3d0 */
+        public String _id;
 
         /* ex: Blazed Cash */
-        String _name;
+        public String _name;
 
         /* format: 2-4 characters (including symbols; case insensitive) ex: B$, BBT, BLT */
-        String _symbol;
+        public String _symbol;
 
         /* format: [host].[domain].[tld]; ex: cash.blazed.city */
-        String _uri; 
+        public String _uri; 
 
-        /* total NFT in circulation; format: [N_$].[N_¢] */
-        String totalNFT;
+        /* total number of tokens in circulation; format: [N_$].[N_¢] */
+        public String _total;
 
-        /* format: [_timestamp] (0 if inherited) */
-        int _start;
-
-        /* format: [_timestamp] (0 if perpetual) */
-        int _end;
+        /* Can limit a contract's duration, or indefinate if ['0', '0'] */
+        public int[] _period;
 
         /* maximum number of transactions allowed per block (0 for infinite/manual block mint) */
-        int _transaction_limit;
+        public int _transaction_limit;
 
         /* total number of blocks in chain */
-        int blocks;
+        public Block[] blocks;
 
         /*
             interface Contract
@@ -88,60 +85,11 @@ Every BBS-1 complient contract must implement the following interface:
         function transfer(Address _from, Address _to, double amount) returns [String];
 
         /*
-            Approval(uuid)
-            @desc generate "approval" Proof of Work (PoW).
-            @param uuid = format: B$://238624daa853204c36315fbca81cbac5047a7158ad6d28ef400a363c8bed1d81/eeb6dd511cd17f51500916a0e619aaef4999c3408fcbd9bed587f6b62cbde162
-        */
-        function approval(String uuid, );
-
-        /*
             MintBlock(uuid)
             @desc mins a new block on the chain.
             @return [String]
         */
         function mintBlock() returns [_symbol]:\/\/[block_hash]/;
-
-        /*
-            name()
-            @desc gets the contract's name
-            @return [String]
-        */
-        function name() returns _name;
-
-        /*
-            symbol()
-            @desc gets the contract's symbol
-            @return [String]
-        */
-        function symbol() returns _symbol;
-
-        /*
-            getTotal()
-            @desc gets the total number of NFT in circulation.
-            @return [String]
-        */
-        function getTotal() returns [String];
-
-        /*
-            getStart()
-            @desc gets the starting timestamp.
-            @return [int]
-        */
-        function getStart() returns [_start];
-
-        /*
-            getEnd()
-            @desc gets the ending timestamp.
-            @return [int]
-        */
-        function getStart() returns [_start];
-
-        /*
-            getTerm()
-            @desc gets the total term length (in microseconds).
-            @return [microseconds]
-        */
-        function getTerm() returns int[_end - _start];
 
         /*
             getTransactionUri(blockSymbol, transactionId)
@@ -155,16 +103,7 @@ Every BBS-1 complient contract must implement the following interface:
                 else:
                     [_symbol]://[block_hash]/[transaction_id]
         */
-        function getTransactionUri(String blockSymbol, String blockHash, int transactionId);
-
-        /*
-            deploy(citySymbol, district, streetAddress, roomId)
-            @desc deploy the contract to a room (_roomId), located on a street (_streetAddress) w/ plot addressing number, inside the district of (_district) and the city of (_citySymbol).
-            @param citySymbol = Symbol of the city
-            @param 
-        */
-        function deploy(String citySymbol, int district, String streetAddress, int roomId);
-
+        function getTransactionUri(String blockSymbol, String blockHash, int transactionId) returns void;
     }
 ```
 * The above is required to begin issuing a token (NFT) on a Blazed Blockchain.
@@ -184,7 +123,6 @@ To hold, send, and lend (or borrow) NFT tokens, the server node(s) must also hos
     `balance`  FLOAT        NOT NULL,    /* format: [B$].[B¢] */
     `company`  VARCHAR(255) DEFAULT "",  /* format: [company_id]; or empty if personal */
    )
-
 ```
 * The _address is an MD5 hash.
 * The _type is one of the following:
@@ -210,11 +148,37 @@ To hold, send, and lend (or borrow) NFT tokens, the server node(s) must also hos
 * If credit or fixed-term loan, the "balance" represents current liabilities.
 * Woodrow Financial's Bank Account Address (and main routing #) is: c4ca4238a0b923820dcc509a6f75849b
 
-Every BBS-1 complient block will be stored in the following JSON schema for genesis blocks:
+
+Every BBS-1 complient block will be generated from a factory similar to the following class:
+```js
+class BLOCK {
+    /* UUID (HEX) ex: 9fe2c4e93f654fdbb24c02b15259716c */
+    private int _id;
+
+    /* hash of block one index less on same chain (0 if this is genesis block) */
+    public String _prev_hash;
+
+    /* unique hash created by SHA256(public_id + nonce + _prev_hash)  */
+    public String _hash;
+
+    /* random string of characters generated on block creation */
+    private String _nonce;
+    
+    /* list of transactions linked to this block */
+    public Transaction[] _transactions;
+
+    function _constructor(config) returns [String];
+
+    function _transaction(String _to, String _from, double amount) returns void;
+
+}
+```
+
+Every BBS-1 complient block will be visible in the following JSON schema for genesis blocks:
 
 ```
 {
-    "_id": "1",
+    "public_id": "c4ca4238a0b923820dcc509a6f75849b",
     "CX": "B$",
     "HX": "22beb300ac9673368557debd75b5ea8cd7bc3a70058133b9732e8d640a5af8ab",
     "PX": "cb03b8fa2f174c0ab061798c78ba30418382af5a571a0d114bfc880f4bcaa87f"
@@ -269,6 +233,12 @@ where:
   * _timestamp: [UNIX_TIMESTAMP]
   * _hash: SHA256([_amount]@[_timestamp]?[_nonce]![_id])
   * _validators: [JSON]
+
+### Accessing
+The transparent nature of a blockchain makes the access of information a priority in terms of development. Therefore, a blockchain can be accessed via its symbol, which becomes a protocol by which data may be resolved. An example using the Blazed Cash (B$) blockchain is as follows:
+```
+BLZ://[Block_Hash]
+```
 
 
 
