@@ -6,10 +6,12 @@
 The following standard allows for the implementation of a standard API for NFTs within smart contracts. This standard provides basic functionality to track and transfer NFTs.
 
 We considered use cases of NFTs being owned and transacted by individuals as well as consignment to third party brokers/wallets/auctioneers ("operators"). NFTs can represent ownership over digital or physical assets. We considered the following assets to be represented on the Blazed Blockchains, they are:
-* Blazed Cash (B$)
-* Blazed Land Token (BLT)
-* Blazed Bond Token (BBT)
-  
+* Blazed CASH (B$) [L1]
+* Blazed LAND Token (BLT) [L2]
+* Blazed BOND Token (BBT) [L3]
+* Blazed DEV Token (BDT) [L4]
+* Blazed QUEST Token (BQT) [L5]
+
 ## Motivation
 The purpose for the Blazed Blockchains are to represent current assets/liabilities in the Expanded Blazed Universe (which includes all three blockchain layers). Furthermore, the digital currency will aid in the raising of capital and sale of private (and -- eventually -- public) equity in the Blazed Labs LLC, Concrete Games LLC, and Ruff Management Inc. companies.
 
@@ -27,12 +29,10 @@ Every BBS-1 complient Blockchain MUST:
   * Yearly Fee (for operating an NFT on the blockchain): B$500,000
 * be managed by a company with AT LEAST 10 employees (including bots)
 
-Every BBS-1 complient contract must implement the following interface:
+Every BBS-1 complient blockchain must implement the following interface:
 
 ```js
-    interface CONTRACT {
-        /* UUID (v4) / also known as the "chain address" ex: f50ec0b7-f960-400d-91f0-c42a6d44e3d0 */
-        public String _id;
+    interface CHAIN {
 
         /* ex: Blazed Cash */
         public String _name;
@@ -40,33 +40,19 @@ Every BBS-1 complient contract must implement the following interface:
         /* format: 2-4 characters (including symbols; case insensitive) ex: B$, BBT, BLT */
         public String _symbol;
 
-        /* format: [host].[domain].[tld]; ex: cash.blazed.city */
+        /* format: [host].[domain].[tld]; ex: cash.blazed.bond */
         public String _uri; 
-
-        /* total number of tokens in circulation; format: [N_$].[N_¢] */
-        public String _total;
-
-        /* Can limit a contract's duration, or indefinate if ['0', '0'] */
-        public int[] _period;
-
-        /* maximum number of transactions allowed per block (0 for infinite/manual block mint) */
-        public int _transaction_limit;
 
         /* total number of blocks in chain */
         public Block[] blocks;
 
         /*
-            interface Contract
+            interface Chain
             @desc Construct a new Smart Contract object.
             @param config {
                 name: "[_name]",
                 symbol: "[_symbol]",
-                uri: "[host].[domain].[tld]",
-                start: 0,
-                end: 0,
-                transaction_limit: 2500,
-                totalNFT: "$.¢",
-                genesis: "https://github.com/blazed-labs/blazed-labs/blob/main/chains/L1/genesis.json"
+                uri: "[host].[domain].[tld]"
             }
             @return [_hash]
         */
@@ -152,17 +138,17 @@ To hold, send, and lend (or borrow) NFT tokens, the server node(s) must also hos
 Every BBS-1 complient block will be generated from a factory similar to the following class:
 ```js
 class BLOCK {
-    /* UUID (HEX) ex: 9fe2c4e93f654fdbb24c02b15259716c */
-    private int _id;
+    /* UUID (v4) / also known as the "chain address" ex: f50ec0b7-f960-400d-91f0-c42a6d44e3d0 */
+    public String _id;
+
+    /* Symbol of associated chain */
+    public String _symbol;
 
     /* hash of block one index less on same chain (0 if this is genesis block) */
     public String _prev_hash;
 
-    /* unique hash created by SHA256(public_id + nonce + _prev_hash)  */
+    /* unique hash created by SHA256(_id + _prev_hash)  */
     public String _hash;
-
-    /* random string of characters generated on block creation */
-    private String _nonce;
     
     /* list of transactions linked to this block */
     public Transaction[] _transactions;
@@ -178,9 +164,10 @@ Every BBS-1 complient block will be visible in the following JSON schema for gen
 
 ```
 {
-    "public_id": "c4ca4238a0b923820dcc509a6f75849b",
+    "_id_": "f50ec0b7-f960-400d-91f0-c42a6d44e3d0",
+    "NX": "245",
     "CX": "B$",
-    "HX": "22beb300ac9673368557debd75b5ea8cd7bc3a70058133b9732e8d640a5af8ab",
+    "HX": "55f924d98ca08b5bf7cafd84a58c83fb85e6829cd1d94226f7dc2bef18dd2241",
     "PX": "cb03b8fa2f174c0ab061798c78ba30418382af5a571a0d114bfc880f4bcaa87f"
 }
 ```
@@ -194,11 +181,11 @@ where:
 Every BBS-1 complient block will be stored in the following JSON schema for subsequent blocks:
 ```
 {
-    "_id": "2",
+    "_id": "f50ec0b7-f960-400d-91f0-c42a6d44e3d1",
     "CX": "B$",
-    "HX": "5bfc40149be02fa6695f93cbf16de8defbe739c4bb049cafa87172a7ed79acc7",
-    "PX": "22beb300ac9673368557debd75b5ea8cd7bc3a70058133b9732e8d640a5af8ab",
-    "NX": 1,
+    "HX": "d05faf67c573d1f76e10ef483a158da665add39abf4a1b6c9ec7a2622aea717a",
+    "PX": "55f924d98ca08b5bf7cafd84a58c83fb85e6829cd1d94226f7dc2bef18dd2241",
+    "NX": "112",
     "TX": {
         "1": {
             "_id": "1",
@@ -233,11 +220,23 @@ where:
   * _timestamp: [UNIX_TIMESTAMP]
   * _hash: SHA256([_amount]@[_timestamp]?[_nonce]![_id])
   * _validators: [JSON]
+  * _type: [int]
+
+Types of Transactions
+1. Token Transfer - Transfer token from one wallet, to another.
+2. Contract Call - Call option is the right to buy a specific security at a set price within a certain period.
+3. Airdrop - Transfer from mint directly to wallet.
+4. Stake - Staked Blazed Cash (B$) is frozen for a set stake period. After the period, the funds are returned to the staking wallet.
+	There are two types of stakes:
+	- Involuntary staking (used as collateral in lending, to collect transaction fees/gas, and to deploy one or more contract(s)).
+	- Voluntary staking (used in liquidity pools to pay out interest & dividends to shareholders).
+5. Interest Paid - Interest collected on CD, Bond, and/or savings account.
+6. Reconcile - Funds sent from the Blazed National Government to adjust inequities, errors, and reimbursed (deferred) liabilities.
 
 ### Accessing
 The transparent nature of a blockchain makes the access of information a priority in terms of development. Therefore, a blockchain can be accessed via its symbol, which becomes a protocol by which data may be resolved. An example using the Blazed Cash (B$) blockchain is as follows:
 ```
-BLZ://[Block_Hash]
+B$://[Block_Hash]
 ```
 
 
