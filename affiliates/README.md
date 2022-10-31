@@ -6,9 +6,6 @@
 ## Tapfiliate
 - [Website](https://tapfiliate.com/?ref=tylerruff3)
 
-## IQ Option
-- [Website](https://affiliate.iqbroker.com/redir/?aff=314828)
-
 ## Woorise
 - [Website](https://woorise.com/?via=20504)
 
