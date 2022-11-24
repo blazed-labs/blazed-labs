@@ -24,3 +24,21 @@ Once your PR is merged, your contributions will be publicly visible on the [Blaz
 ## Testing
 - If you come across a bug, fluke, or unsavory UX story; please do not hesitate to create a new [Issue](https://github.com/blazed-labs/blazed-labs/issues/new). Of course, first check if the issue has already been raised by using the search feature.
 - If you would like to share your user experience story, even if it was purely positive, you may do so in the [Discussions](https://github.com/blazed-labs/blazed-labs/discussions) section of this repo.
+
+---
+
+### Interested in Contributing to Blazed Software?
+Anyone can contribute to our projects! We don't just hire programmers, also project managers, designers, UX/UI, testers, and many more roles are available. Super flexable scheduling, super lax work culture, you'll love it here!
+
+1. Join the [Blazed Development Group](https://www.facebook.com/groups/blzdev) on Facebook to begin contributing to Blazed Software planning, development, and testing.
+2. Check out our [Blazed Quest](https://blazed.quest/) website, to track the status of our projects.
+3. Check out our [Blazed Bond](https://blazed.bond/) market to buy, sell, and track project bond investments.
+4. Check out our [Blazed Software](https://blazed.software/) website to discover published software, to connect with friends, and to report bugs.
+5. View the full [Contributing Guide](CONTRIBUTING.md) for more contribution tips and advice.
+
+### Questions? Comments? Concerns?
+* Email Us: [hello@blazed.space](mailto:hello@blazed.space)
+* Call Us: [+1 (855) 788-2348](+18557882348)
+* Message Us: 
+  * [Sales Inquiries](https://blazed.contact/)
+  * [Other Inquiries](https://blazed.company/contact/)
