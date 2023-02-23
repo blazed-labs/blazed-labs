@@ -10,6 +10,9 @@ We make software, experiences, and media. This also includes games. The RUFF Fou
 
 > "The forecast horizon is the length of time into the future for which forecasts are to be prepared."
 
+## Info
+- Company UUID: **1222c756-b140-40fd-9876-b47336e32471**
+
 ## Social
 - [Facebook](https://facebook.com/blazedlabs)
 - [Linkedin](https://www.linkedin.com/company/blazed-labs/)
