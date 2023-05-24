@@ -48,23 +48,23 @@ under the employee.
 company-related business.
 8. Create a new Google Workspace account for the employee. 
 
-**(preferred: first.last@blazed.space)**
+**(preferred: flast@blazed.space)**
 
 Allow the employee to log into the new account, assure it works as intended, and then
 encourage them to enable Two-Factor Authentication (2FA), using an app like [Google
 Authenticator](https://apps.apple.com/us/app/google-authenticator/id388497605).
 
-9. Instruct the employee to fill out the Equipment Release Form (which is the 2nd page of
+1. Instruct the employee to fill out the Equipment Release Form (which is the 2nd page of
 the "Cover"), reflecting the Product ID (found by searching "Product ID" in the 
 Windows search bar) of the assigned laptop, the phone number of the assigned phone (if
 applicable), and the assigned company email adress. Collect the Release Form, and
 submit it to HR to file under the employee.
 
-10. Once that has been completed, the employee is free to begin their role,
+1.  Once that has been completed, the employee is free to begin their role,
 to learn, to grow, and to advance science for all of mankind. Encourage the employee
 to get comfortable with the workplace duties and expectations, and to tackle an 
 introductory project to help acclimate the employee to their new role.
-11. If the employee shows interest in a introductory project, go over the New Project
+1.  If the employee shows interest in a introductory project, go over the New Project
 Procedure. Blazed Labs LLC will always approve all introductory projects, so long as 
 they maintain am agile footprint and maintain a low budget.
 

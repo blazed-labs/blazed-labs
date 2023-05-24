@@ -8,11 +8,6 @@
 Blazed Labs is a product development company we founded in January, 2020.
 We make software, experiences, and media. This also includes games. The RUFF Foundation is our open source development group, whom acts as the orchestrator for various collaborative project development ventures. [Contact Us](https://blazed.contact/) for development inquiries.
 
-> "The forecast horizon is the length of time into the future for which forecasts are to be prepared."
-
-## Info
-- Company UUID: **1222c756-b140-40fd-9876-b47336e32471**
-
 ## Social
 - [Facebook](https://facebook.com/blazedlabs)
 - [Linkedin](https://www.linkedin.com/company/blazed-labs/)
@@ -33,20 +28,6 @@ We make software, experiences, and media. This also includes games. The RUFF Fou
 ## Websites
 - [Blazed Labs LLC](https://blazedlabs.com/)
 - [Blazed Space](https://www.blazed.space/)
-- [Blazed Quest](https://blazed.quest/)
-- [Blazed City](https://blazed.city/)
-- [Blazed Foods](https://blazedfoods.com)
-
-### Blazed One
-- [Blazed One Home](https://blz.one/)
-- [Blazed Systems](https://blazed.systems/)
-- [Blazed Telecom](https://blazed.tel/)
-
-### Media
-- [Blazed Publishing](https://blazed.xyz/)
-- [Blazed Watch](https://blazed.watch/)
-- [Blazed World](https://blazed.world/)
-- [Concrete Games](https://blazed.games/)
 
 ## Partners
 - [RTM Transit](https://rtmtransit.com/)
